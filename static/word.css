@@ -1,0 +1,45 @@
+.block > .inline {
+  display: inline-block;
+  word-break: break-word;
+}
+
+.block > .inline > .language_name {
+  color: #c9c9c9;
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.block > .inline > .word_value {
+  color: #3c3c3c;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 100%;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.block > .spacer {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+}
+
+.block > .info {
+  box-sizing: border-box;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 32px;
+}
+
+.block > .info > .word-info {
+  font-size: 20px;
+  padding-left: 4px;
+}
+
+.block table .key {
+  width: 30%;
+}

@@ -1,0 +1,39 @@
+{% extends "./layout.html" %}
+{% block title %}
+  dictionary
+{% endblock %}
+{% block head %}
+  {% parent %}
+  <link rel="stylesheet" href="/static/index.css">
+{% endblock %}
+{% block content %}
+
+  <div class="block">
+    <span class="language_name">{{ name }}</span>
+
+    <table>
+      <tbody>
+        <thead>
+        </thead>
+        {% for word in words %}
+          <tr>
+            <td>
+              <a href="/{{ id_prefix }}/word/{{ word.word }}">{{ word.word }}</a>
+            </td>
+            <td>
+              {% for tr_l in word.translation %}
+                {% set lang = loop.key %}
+                {% for tr in tr_l %}
+                    <a href="/{{ lang }}/word/{{ tr.word }}">{{tr.word}}</a>{% if !loop.last %}, {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+
+  </div>
+
+{% endblock %}

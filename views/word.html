@@ -1,0 +1,61 @@
+{% extends "./layout.html" %}
+
+{% block title %}
+  {{ word }} - translation and info
+{% endblock %}
+
+{% block head %}
+  {% parent %}
+  <link rel="stylesheet" href="/static/word.css">
+{% endblock %}
+
+{% block content %}
+
+  <div class="block">
+    <div class="inline">
+        <div class="language_name">{{ language }}</div>
+        <div class="word_value">{{ word }}</div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="inline">
+      {% for tr_l in translation %}
+      {% set lang = loop.key %}
+        <div class="language_name">{{ lang }}</div>
+        <div class="word_value">
+          {% for tr in tr_l %}
+            <a href="/{{ lang }}/word/{{tr.word}}">{{tr.word}}</a>{% if !loop.last %}, {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="info">
+      <span class="word-info">word info</span>
+      <table class="info-table">
+        <tbody>
+          <tr><td class="key">word</td><td>{{ word }}</td></tr>
+          <tr><td class="key">language</td><td><a href="/{{ language }}">{{ language }}</a></td></tr>
+          <tr><td class="key">stem</td><td>{{ stem }}</td></tr>
+          <tr><td class="key">type</td><td>{{ type }}</td></tr>
+          <tr><td class="key">properties</td><td>
+            <ul>
+              {% for prop in properties %}
+                <li>{{ prop }}</li>
+              {% endfor %}
+          </ul>
+          </td></tr>
+          <tr><td class="key">versions</td><td>
+            <ul>
+              {% for version in versions %}
+                <li><a href="/{{ language }}/word/{{ version.word }}">{{ version.word }}</a></li>
+              {% endfor %}
+            </ul>
+          </td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+{% endblock %}

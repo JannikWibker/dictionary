@@ -1,0 +1,19 @@
+{% extends "./layout.html" %}
+{% block title %}
+  dictionary
+{% endblock %}
+{% block head %}
+  {% parent %}
+  <link rel="stylesheet" href="/static/index.css">
+{% endblock %}
+{% block content %}
+
+  <div class="block">
+    {% for language in languages %}
+    <div class="lang_link_container">
+      <a href="/{{ language.id_prefix }}">{{ language.name }}</a>
+    </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}

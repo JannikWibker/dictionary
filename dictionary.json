@@ -1,0 +1,1006 @@
+{
+  "hv": {
+    "name": "High Valyrian",
+    "id_prefix": "hv",
+    "words": [
+      {
+        "word": "vala",
+        "id": "hv1",
+        "default": true,
+        "stem": "val",
+        "ending": "a",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng1", "word": "man" }
+          ]
+        },
+        "versions": [
+          { "id": "hv1", "word": "vala" },
+          { "id": "hv2", "word": "vali" },
+          { "id": "hv3", "word": "vale" },
+          { "id": "hv4", "word": "valī" }
+        ]
+      },
+      {
+        "word": "vali",
+        "id": "hv2",
+        "default": false,
+        "stem": "val",
+        "ending": "i",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng2", "word": "men" }
+          ]
+        },
+        "versions": [
+          { "id": "hv1", "word": "vala" },
+          { "id": "hv2", "word": "vali" },
+          { "id": "hv3", "word": "vale" },
+          { "id": "hv4", "word": "valī" }
+        ]
+      },
+      {
+        "word": "vale",
+        "id": "hv3",
+        "default": false,
+        "stem": "val",
+        "ending": "e",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng1", "word": "man" }
+          ]
+        },
+        "versions": [
+          { "id": "hv1", "word": "vala" },
+          { "id": "hv2", "word": "vali" },
+          { "id": "hv3", "word": "vale" },
+          { "id": "hv4", "word": "valī" }
+        ]
+      },
+      {
+        "word": "valī",
+        "id": "hv4",
+        "default": false,
+        "stem": "val",
+        "ending": "ī",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng2", "word": "men" }
+          ]
+        },
+        "versions": [
+          { "id": "hv1", "word": "vala" },
+          { "id": "hv2", "word": "vali" },
+          { "id": "hv3", "word": "vale" },
+          { "id": "hv4", "word": "valī" }
+        ]
+      },
+      {
+        "word": "ābra",
+        "id": "hv5",
+        "default": true,
+        "stem": "ābr",
+        "ending": "a",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng3", "word": "woman" }
+          ]
+        },
+        "versions": [
+          { "id": "hv5", "word": "ābra" },
+          { "id": "hv6", "word": "ābri" },
+          { "id": "hv7", "word": "ābre" },
+          { "id": "hv8", "word": "ābrī" }
+        ]
+      },
+      {
+        "word": "ābri",
+        "id": "hv6",
+        "default": false,
+        "stem": "ābr",
+        "ending": "i",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng4", "word": "women" }
+          ]
+        },
+        "versions": [
+          { "id": "hv5", "word": "ābra" },
+          { "id": "hv6", "word": "ābri" },
+          { "id": "hv7", "word": "ābre" },
+          { "id": "hv8", "word": "ābrī" }
+        ]
+      },
+      {
+        "word": "ābre",
+        "id": "hv7",
+        "default": false,
+        "stem": "ābr",
+        "ending": "e",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng3", "word": "woman" }
+          ]
+        },
+        "versions": [
+          { "id": "hv5", "word": "ābra" },
+          { "id": "hv6", "word": "ābri" },
+          { "id": "hv7", "word": "ābre" },
+          { "id": "hv8", "word": "ābrī" }
+        ]
+      },
+      {
+        "word": "ābrī",
+        "id": "hv8",
+        "default": false,
+        "stem": "ābr",
+        "ending": "ī",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng4", "word": "women" }
+          ]
+        },
+        "versions": [
+          { "id": "hv5", "word": "ābra" },
+          { "id": "hv6", "word": "ābri" },
+          { "id": "hv7", "word": "ābre" },
+          { "id": "hv8", "word": "ābrī" }
+        ]
+      },
+      {
+        "word": "taoba",
+        "id": "hv9",
+        "default": true,
+        "stem": "taob",
+        "ending": "a",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng5", "word": "boy" }
+          ]
+        },
+        "versions": [
+          { "id": "hv9", "word": "taoba" },
+          { "id": "hv10", "word": "taobi" },
+          { "id": "hv11", "word": "taobe" },
+          { "id": "hv12", "word": "taobī" }
+        ]
+      },
+      {
+        "word": "taobi",
+        "id": "hv10",
+        "default": false,
+        "stem": "taob",
+        "ending": "i",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng6", "word": "boys" }
+          ]
+        },
+        "versions": [
+          { "id": "hv9", "word": "taoba" },
+          { "id": "hv10", "word": "taobi" },
+          { "id": "hv11", "word": "taobe" },
+          { "id": "hv12", "word": "taobī" }
+        ]
+      },
+      {
+        "word": "taobe",
+        "id": "hv11",
+        "default": false,
+        "stem": "taob",
+        "ending": "e",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng5", "word": "boy" }
+          ]
+        },
+        "versions": [
+          { "id": "hv9", "word": "taoba" },
+          { "id": "hv10", "word": "taobi" },
+          { "id": "hv11", "word": "taobe" },
+          { "id": "hv12", "word": "taobī" }
+        ]
+      },
+      {
+        "word": "taobī",
+        "id": "hv12",
+        "default": false,
+        "stem": "taob",
+        "ending": "ī",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng6", "word": "boys" }
+          ]
+        },
+        "versions": [
+          { "id": "hv9", "word": "taoba" },
+          { "id": "hv10", "word": "taobi" },
+          { "id": "hv11", "word": "taobe" },
+          { "id": "hv12", "word": "taobī" }
+        ]
+      },
+      {
+        "word": "riña",
+        "id": "hv13",
+        "default": true,
+        "stem": "riñ",
+        "ending": "a",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng7", "word": "girl" }
+          ]
+        },
+        "versions": [
+          { "id": "hv13", "word": "riña" },
+          { "id": "hv14", "word": "riñi" },
+          { "id": "hv15", "word": "riñe" },
+          { "id": "hv16", "word": "riñī" }
+        ]
+      },
+      {
+        "word": "riñi",
+        "id": "hv14",
+        "default": false,
+        "stem": "riñ",
+        "ending": "i",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng8", "word": "girls" }
+          ]
+        },
+        "versions": [
+          { "id": "hv13", "word": "riña" },
+          { "id": "hv14", "word": "riñi" },
+          { "id": "hv15", "word": "riñe" },
+          { "id": "hv16", "word": "riñī" }
+        ]
+      },
+      {
+        "word": "riñe",
+        "id": "hv15",
+        "default": false,
+        "stem": "riñ",
+        "ending": "e",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng7", "word": "girl" }
+          ]
+        },
+        "versions": [
+          { "id": "hv13", "word": "riña" },
+          { "id": "hv14", "word": "riñi" },
+          { "id": "hv15", "word": "riñe" },
+          { "id": "hv16", "word": "riñī" }
+        ]
+      },
+      {
+        "word": "riñī",
+        "id": "hv16",
+        "default": false,
+        "stem": "riñ",
+        "ending": "ī",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng8", "word": "girls" }
+          ]
+        },
+        "versions": [
+          { "id": "hv13", "word": "riña" },
+          { "id": "hv14", "word": "riñi" },
+          { "id": "hv15", "word": "riñe" },
+          { "id": "hv16", "word": "riñī" }
+        ]
+      },
+      {
+        "word": "kepa",
+        "id": "hv13",
+        "default": true,
+        "stem": "kep",
+        "ending": "a",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng9", "word": "father" }
+          ]
+        },
+        "versions": [
+          { "id": "hv17", "word": "kepa" },
+          { "id": "hv18", "word": "kepi" },
+          { "id": "hv19", "word": "kepe" },
+          { "id": "hv20", "word": "kepī" }
+        ]
+      },
+      {
+        "word": "kepi",
+        "id": "hv14",
+        "default": false,
+        "stem": "kep",
+        "ending": "i",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng10", "word": "fathers" }
+          ]
+        },
+        "versions": [
+          { "id": "hv17", "word": "kepa" },
+          { "id": "hv18", "word": "kepi" },
+          { "id": "hv19", "word": "kepe" },
+          { "id": "hv20", "word": "kepī" }
+        ]
+      },
+      {
+        "word": "kepe",
+        "id": "hv15",
+        "default": false,
+        "stem": "kep",
+        "ending": "e",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng9", "word": "father" }
+          ]
+        },
+        "versions": [
+          { "id": "hv17", "word": "kepa" },
+          { "id": "hv18", "word": "kepi" },
+          { "id": "hv19", "word": "kepe" },
+          { "id": "hv20", "word": "kepī" }
+        ]
+      },
+      {
+        "word": "kepī",
+        "id": "hv20",
+        "default": false,
+        "stem": "kep",
+        "ending": "ī",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng10", "word": "fathers" }
+          ]
+        },
+        "versions": [
+          { "id": "hv17", "word": "kepa" },
+          { "id": "hv18", "word": "kepi" },
+          { "id": "hv19", "word": "kepe" },
+          { "id": "hv20", "word": "kepī" }
+        ]
+      },
+      {
+        "word": "muña",
+        "id": "hv21",
+        "default": true,
+        "stem": "muñ",
+        "ending": "a",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng11", "word": "mother" }
+          ]
+        },
+        "versions": [
+          { "id": "hv21", "word": "muña" },
+          { "id": "hv22", "word": "muñi" },
+          { "id": "hv23", "word": "muñe" },
+          { "id": "hv24", "word": "muñī" }
+        ]
+      },
+      {
+        "word": "muñi",
+        "id": "hv22",
+        "default": false,
+        "stem": "muñ",
+        "ending": "i",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "subject", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng12", "word": "mothers" }
+          ]
+        },
+        "versions": [
+          { "id": "hv21", "word": "muña" },
+          { "id": "hv22", "word": "muñi" },
+          { "id": "hv23", "word": "muñe" },
+          { "id": "hv24", "word": "muñī" }
+        ]
+      },
+      {
+        "word": "muñe",
+        "id": "hv23",
+        "default": false,
+        "stem": "muñ",
+        "ending": "e",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "singular" ],
+        "translation": {
+          "eng": [
+            { "id": "eng11", "word": "mother" }
+          ]
+        },
+        "versions": [
+          { "id": "hv21", "word": "muña" },
+          { "id": "hv22", "word": "muñi" },
+          { "id": "hv23", "word": "muñe" },
+          { "id": "hv24", "word": "muñī" }
+        ]
+      },
+      {
+        "word": "muñī",
+        "id": "hv24",
+        "default": false,
+        "stem": "muñ",
+        "ending": "ī",
+        "beginning": "",
+        "type": "noun",
+        "language": "hv",
+        "properties": [ "object", "plural" ],
+        "translation": {
+          "eng": [
+            { "id": "eng12", "word": "mothers" }
+          ]
+        },
+        "versions": [
+          { "id": "hv21", "word": "muña" },
+          { "id": "hv22", "word": "muñi" },
+          { "id": "hv23", "word": "muñe" },
+          { "id": "hv24", "word": "muñī" }
+        ]
+      },
+      {
+        "word": "bisy", "id": "vh25",
+        "default": false, "stem": "is",
+        "ending": "y", "beginning": "b",
+        "type": "", "language": "hv",
+        "properties": [ "singular", "animate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng13", "word": "this" }
+          ]
+        },
+        "versions": [
+          { "id": "vh25", "word": "bisy" },
+          { "id": "vh26", "word": "kesy" },
+          { "id": "vh27", "word": "bisi" },
+          { "id": "vh28", "word": "kesi" }
+        ]
+      },
+      {
+        "word": "kesy", "id": "vh26",
+        "default": false, "stem": "es",
+        "ending": "y", "beginning": "k",
+        "type": "", "language": "hv",
+        "properties": [ "singular", "inanimate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng13", "word": "this" }
+          ]
+        },
+        "versions": [
+          { "id": "vh25", "word": "bisy" },
+          { "id": "vh26", "word": "kesy" },
+          { "id": "vh27", "word": "bisi" },
+          { "id": "vh28", "word": "kesi" }
+        ]
+      },
+      {
+        "word": "bisi", "id": "vh27",
+        "default": false, "stem": "is",
+        "ending": "i", "beginning": "b",
+        "type": "", "language": "hv",
+        "properties": [ "plural", "animate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng14", "word": "these" }
+          ]
+        },
+        "versions": [
+          { "id": "vh25", "word": "bisy" },
+          { "id": "vh26", "word": "kesy" },
+          { "id": "vh27", "word": "bisi" },
+          { "id": "vh28", "word": "kesi" }
+        ]
+      },
+      {
+        "word": "kesi", "id": "vh28",
+        "default": false, "stem": "es",
+        "ending": "i", "beginning": "k",
+        "type": "", "language": "hv",
+        "properties": [ "plural", "inanimate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng14", "word": "these" }
+          ]
+        },
+        "versions": [
+          { "id": "vh25", "word": "bisy" },
+          { "id": "vh26", "word": "kesy" },
+          { "id": "vh27", "word": "bisi" },
+          { "id": "vh28", "word": "kesi" }
+        ]
+      },
+      {
+        "word": "bony", "id": "vh29",
+        "default": false, "stem": "on",
+        "ending": "y", "beginning": "b",
+        "type": "", "language": "hv",
+        "properties": [ "singular", "animate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng15", "word": "that" }
+          ]
+        },
+        "versions": [
+          { "id": "vh29", "word": "bony" },
+          { "id": "vh30", "word": "kony" },
+          { "id": "vh31", "word": "boni" },
+          { "id": "vh32", "word": "koni" }
+        ]
+      },
+      {
+        "word": "kony", "id": "vh30",
+        "default": false, "stem": "on",
+        "ending": "y", "beginning": "k",
+        "type": "", "language": "hv",
+        "properties": [ "singular", "inanimate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng15", "word": "that" }
+          ]
+        },
+        "versions": [
+          { "id": "vh29", "word": "bony" },
+          { "id": "vh30", "word": "kony" },
+          { "id": "vh31", "word": "boni" },
+          { "id": "vh32", "word": "koni" }
+        ]
+      },
+      {
+        "word": "boni", "id": "vh31",
+        "default": false, "stem": "on",
+        "ending": "i", "beginning": "b",
+        "type": "", "language": "hv",
+        "properties": [ "plural", "animate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng16", "word": "those" }
+          ]
+        },
+        "versions": [
+          { "id": "vh29", "word": "bony" },
+          { "id": "vh30", "word": "kony" },
+          { "id": "vh31", "word": "boni" },
+          { "id": "vh32", "word": "koni" }
+        ]
+      },
+      {
+        "word": "koni", "id": "vh32",
+        "default": false, "stem": "on",
+        "ending": "i", "beginning": "k",
+        "type": "", "language": "hv",
+        "properties": [ "plural", "inanimate" ],
+        "translation": {
+          "eng": [
+            { "id": "eng16", "word": "those" }
+          ]
+        },
+        "versions": [
+          { "id": "vh29", "word": "bony" },
+          { "id": "vh30", "word": "kony" },
+          { "id": "vh31", "word": "boni" },
+          { "id": "vh32", "word": "koni" }
+        ]
+      }
+    ]
+  },
+  "eng": {
+    "name": "English",
+    "id_prefix": "eng",
+    "words": [
+      {
+        "word": "man",
+        "id": "eng1",
+        "default": true,
+        "stem": "man",
+        "ending": "",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "singular", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv1", "word": "vala" },
+            { "id": "hv3", "word": "vale" }
+          ]
+        },
+        "versions": [
+          { "id": "eng1", "word": "man" },
+          { "id": "eng2", "word": "men" }
+        ]
+      },
+      {
+        "word": "men",
+        "id": "eng2",
+        "default": false,
+        "stem": "man",
+        "ending": "",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "plural", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv2", "word": "vali" },
+            { "id": "hv4", "word": "valī" }
+          ]
+        },
+        "versions": [
+          { "id": "eng1", "word": "man" },
+          { "id": "eng2", "word": "men" }
+        ]
+      },
+      {
+        "word": "woman",
+        "id": "eng3",
+        "default": true,
+        "stem": "wom",
+        "ending": "an",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "singular", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv5", "word": "ābra" },
+            { "id": "hv7", "word": "ābre" }
+          ]
+        },
+        "versions": [
+          { "id": "eng3", "word": "woman" },
+          { "id": "eng4", "word": "women" }
+        ]
+      },
+      {
+        "word": "women",
+        "id": "eng4",
+        "default": false,
+        "stem": "wom",
+        "ending": "en",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "plural", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv6", "word": "ābri" },
+            { "id": "hv8", "word": "ābrī" }
+          ]
+        },
+        "versions": [
+          { "id": "eng3", "word": "woman" },
+          { "id": "eng4", "word": "women" }
+        ]
+      },
+      {
+        "word": "boy",
+        "id": "eng5",
+        "default": true,
+        "stem": "boy",
+        "ending": "",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "singular", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv9", "word": "taoba" },
+            { "id": "hv11", "word": "taobe" }
+          ]
+        },
+        "versions": [
+          { "id": "eng5", "word": "boy" },
+          { "id": "eng6", "word": "boys" }
+        ]
+      },
+      {
+        "word": "boys",
+        "id": "eng6",
+        "default": false,
+        "stem": "boy",
+        "ending": "s",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "plural", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv10", "word": "taobi" },
+            { "id": "hv12", "word": "taobī" }
+          ]
+        },
+        "versions": [
+          { "id": "eng5", "word": "boy" },
+          { "id": "eng6", "word": "boys" }
+        ]
+      },
+      {
+        "word": "girl",
+        "id": "eng7",
+        "default": true,
+        "stem": "girl",
+        "ending": "",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "singular", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv9", "word": "riña" },
+            { "id": "hv11", "word": "riñe" }
+          ]
+        },
+        "versions": [
+          { "id": "eng7", "word": "girl" },
+          { "id": "eng8", "word": "girls" }
+        ]
+      },
+      {
+        "word": "girls",
+        "id": "eng8",
+        "default": false,
+        "stem": "girl",
+        "ending": "s",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "plural", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv10", "word": "riñi" },
+            { "id": "hv12", "word": "riñī" }
+          ]
+        },
+        "versions": [
+          { "id": "eng7", "word": "girl" },
+          { "id": "eng8", "word": "girls" }
+        ]
+      },
+      {
+        "word": "father",
+        "id": "eng9",
+        "default": true,
+        "stem": "father",
+        "ending": "",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "singular", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv17", "word": "kepa" },
+            { "id": "hv19", "word": "kepe" }
+          ]
+        },
+        "versions": [
+          { "id": "eng9", "word": "father" },
+          { "id": "eng10", "word": "fathers" }
+        ]
+      },
+      {
+        "word": "fathers",
+        "id": "eng10",
+        "default": false,
+        "stem": "father",
+        "ending": "s",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "plural", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv18", "word": "kepi" },
+            { "id": "hv20", "word": "kepī" }
+          ]
+        },
+        "versions": [
+          { "id": "eng9", "word": "father" },
+          { "id": "eng10", "word": "fathers" }
+        ]
+      },
+      {
+        "word": "mother",
+        "id": "eng11",
+        "default": true,
+        "stem": "mother",
+        "ending": "s",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "singular", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv21", "word": "muña" },
+            { "id": "hv23", "word": "muñe" }
+          ]
+        },
+        "versions": [
+          { "id": "eng11", "word": "mother" },
+          { "id": "eng12", "word": "mothers" }
+        ]
+      },
+      {
+        "word": "mothers",
+        "id": "eng12",
+        "default": false,
+        "stem": "mother",
+        "ending": "s",
+        "beginning": "",
+        "type": "noun",
+        "language": "eng",
+        "properties": [ "plural", "subject", "object" ],
+        "translation": {
+          "hv": [
+            { "id": "hv22", "word": "muñi" },
+            { "id": "hv24", "word": "muñī" }
+          ]
+        },
+        "versions": [
+          { "id": "eng11", "word": "mother" },
+          { "id": "eng12", "word": "mothers" }
+        ]
+      },
+      {
+        "word": "this", "id": "eng13",
+        "default": false, "stem": "",
+        "ending": "", "beginning": "",
+        "type": "", "language": "eng",
+        "properties": [ "singular", "animate", "inanimate" ],
+        "translation": {
+          "hv": [
+            { "id": "vh25", "word": "bisy" },
+            { "id": "vh26", "word": "kesy" }
+          ]
+        },
+        "versions": [
+          { "id": "eng13", "word": "this" },
+          { "id": "eng14", "word": "these" }
+        ]
+      },
+      {
+        "word": "these", "id": "eng14",
+        "default": false, "stem": "",
+        "ending": "", "beginning": "",
+        "type": "", "language": "eng",
+        "properties": [ "plural", "animate", "inanimate" ],
+        "translation": {
+          "hv": [
+            { "id": "vh27", "word": "bisi" },
+            { "id": "vh28", "word": "kesi" }
+          ]
+        },
+        "versions": [
+          { "id": "eng13", "word": "this" },
+          { "id": "eng14", "word": "these" }
+        ]
+      },
+      {
+        "word": "that", "id": "eng15",
+        "default": false, "stem": "",
+        "ending": "", "beginning": "",
+        "type": "", "language": "eng",
+        "properties": [ "singular", "animate", "inanimate" ],
+        "translation": {
+          "hv": [
+            { "id": "vh29", "word": "bony" },
+            { "id": "vh30", "word": "kony" }
+          ]
+        },
+        "versions": [
+          { "id": "eng15", "word": "that" },
+          { "id": "eng16", "word": "those" }
+        ]
+      },
+      {
+        "word": "those", "id": "eng16",
+        "default": false, "stem": "",
+        "ending": "", "beginning": "",
+        "type": "", "language": "eng",
+        "properties": [ "plural", "animate", "inanimate" ],
+        "translation": {
+          "hv": [
+            { "id": "vh31", "word": "boni" },
+            { "id": "vh32", "word": "koni" }
+          ]
+        },
+        "versions": [
+          { "id": "eng15", "word": "that" },
+          { "id": "eng16", "word": "those" }
+        ]
+      }
+    ]
+  }
+}
