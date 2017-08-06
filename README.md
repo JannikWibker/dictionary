@@ -38,3 +38,12 @@ The routes to use the application are:
 - /**:language**/id/**:id**
 
 more will probably come soon (probably something for searching, filtering and/or ordering words)
+
+
+### installation
+```bash
+git clone https://www.github.com/JannikWibker/dictionary.git
+cd dictionary
+npm install
+node index.js
+```
